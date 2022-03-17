@@ -1,0 +1,15 @@
+.desc {
+  width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .desc {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .desc {
+    width: 25%;
+  }
+}
