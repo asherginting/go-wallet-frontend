@@ -5,7 +5,7 @@ import GoButton from './GoButton'
 import style from '../styles/scss/Navbar.module.scss'
 import {IoMdNotificationsOutline} from 'react-icons/io';
 
-import picturePlaceholder from '../public/images/testi-placeholder.jpg'
+import picturePlaceholder from '../public/images/testimoni.jpg'
 
 export default function GoNavbar() {
 
