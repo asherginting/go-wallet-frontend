@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import style from '../styles/scss/GoSideBanner.module.scss';
-import phone from '../public/images/phone-banner.png';
+import phone from '../public/images/phone-gowallet.png';
 
 export default function EZSideBanner({wrapperClassName}) {
   return (
