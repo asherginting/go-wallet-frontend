@@ -14,8 +14,8 @@ import dell from '../public/images/dell.png'
 import dropbox from '../public/images/dropbox.png'
 import HnM from '../public/images/h&m.png'
 
-import phoneBanner from '../public/images/phone-banner.png'
-import testiPlaceholder from '../public/images/testi-placeholder.jpg'
+import phoneBanner from '../public/images/phone-gowallet.png'
+import testimoni from '../public/images/testimoni.jpg'
 import GoFooter from '../components/GoFooter';
 
 export default function Home() {
@@ -40,7 +40,7 @@ export default function Home() {
       </header>
       <section className='ez-wallet-benefit text-black bg-semi-white'>
         <div className="wrapper container py-5">
-          <h2 className='fw-bolder text-center mt-4'><span className='text-primary'>Why</span> Choose EZ Wallet?</h2>
+          <h2 className='fw-bolder text-center mt-4'><span className='text-primary'>Why</span> Choose Go Wallet?</h2>
           <p className='text-center mt-4'>We have some great features from the application and it’s totally free <br /> to use by all users around the world.</p>
 
           <div className="benefits row">
@@ -68,7 +68,7 @@ export default function Home() {
                   <BsDownload className='text-white fs-3' />
                 </div>
                 <h3 className='fw-bold mb-4'>Easy Download</h3>
-                <p className='text-center'>Zwallet is 100% totally free to use it’s now available on Google Play Store and App Store.</p>
+                <p className='text-center'>Go wallet is 100% totally free to use it’s now available on Google Play Store and App Store.</p>
               </div>
             </div>
           </div>
@@ -110,16 +110,16 @@ export default function Home() {
         </p>
       </section>
       <section className={`app-show ${style.bgWhiteGreen} py-5 px-3`}>
-        <h2 className='text-center fw-bolder mb-4 mb-md-5 d-lg-none'>All The <span className='text-primary'>Great</span> Zwallet Features.</h2>
+        <h2 className='text-center fw-bolder mb-4 mb-md-5 d-lg-none'>All The <span className='text-primary'>Great</span> Go wallet Features.</h2>
         <div className="row align-items-center px-lg-5 mt-lg-4">
           <div className="col-12 col-md-6 mb-4 mb-md-0">
             <Image src={phoneBanner} quality={75} alt='phone-banner' layout='responsive' />
           </div>
           <div className="col-12 col-md-6">
-            <h2 className='fw-bolder mb-4 fs-1 d-none d-lg-block'>All The <span className='text-primary'>Great</span> <br /> Zwallet Features.</h2>
+            <h2 className='fw-bolder mb-4 fs-1 d-none d-lg-block'>All The <span className='text-primary'>Great</span> <br /> Go Wallet Features.</h2>
             <div className="app-benefit bg-white rounded-3 p-3 p-lg-4">
               <h3 className='fs-5 fw-bold mb-3'><span className='text-primary'>1.</span> Small Fee</h3>
-              <p className='m-0'>We only charge 5% of every success transaction done in Zwallet app.</p>
+              <p className='m-0'>We only charge 5% of every success transaction done in Go wallet app.</p>
             </div>
             <div className="app-benefit bg-white rounded-3 p-3 p-lg-4 mt-3">
               <h3 className='fs-5 fw-bold mb-3'><span className='text-primary'>2.</span> Data Secured</h3>
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div className="app-benefit bg-white rounded-3 p-3 p-lg-4 mt-3">
               <h3 className='fs-5 fw-bold mb-3'><span className='text-primary'>3.</span> User Friendly</h3>
-              <p className='m-0'>Zwallet come up with modern and sleek design and not complicated.</p>
+              <p className='m-0'>Go Wallet come up with modern and sleek design and not complicated.</p>
             </div>
           </div>
         </div>
@@ -144,8 +144,8 @@ export default function Home() {
           </div>
           <div className="col">
             <div className="testi-card px-4 py-5 bg-white rounded-3 d-flex flex-column align-items-center text-center">
-              <Image src={testiPlaceholder} alt='testi-pict' width={120} height={120} className='rounded-3' />
-              <p className='fw-bold fs-5 my-3'>Alex Hansinburg</p>
+              <Image src={testimoni} alt='testi-pict' width={120} height={120} className='rounded-3' />
+              <p className='fw-bold fs-5 my-3'>Asher Azriel Ginting</p>
               <p className='mb-5'>Designer</p>
               <p className={`${style.tetiDescription}`}>“This is the most outstanding app that I’ve ever try in my live, this app is such an amazing masterpiece and it’s suitable for you who is bussy with their bussiness and must transfer money to another person aut there. Just try this app and see the power!”</p>
             </div>
