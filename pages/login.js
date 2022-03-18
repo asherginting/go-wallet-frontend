@@ -34,7 +34,7 @@ export default function Login({readyToReset}) {
     <>
       <div>
         <Head>
-          <title> {capitalize(pathName)} </title>
+          <title> {capitalize(pathName)} | Go Rental </title>
         </Head>
       </div>
       <section className="row vh-100 align-items-center">
