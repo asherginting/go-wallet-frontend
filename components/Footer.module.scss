@@ -1,0 +1,15 @@
+.footer {
+  color: #fff;
+  background-color: #533E85;
+  padding: 60px 0;
+}
+
+.toptext {
+  width: 20%;
+}
+
+@media all and (max-width: 992px) {
+  .toptext {
+    width: 90%;
+  }
+}
