@@ -1,0 +1,13 @@
+.photoUser {
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* .card {
+  box-shadow: 0px 7px 20px -11px rgba(79,189,186,0.58);
+  -webkit-box-shadow: 0px 7px 20px -11px rgba(79,189,186,0.58);
+  -moz-box-shadow: 0px 7px 20px -11px rgba(79,189,186,0.58);
+} */
