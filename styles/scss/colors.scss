@@ -1,3 +1,12 @@
+// fusv-enable
+
+// scss-docs-start theme-color-variables
 $primary: #533E85 !default;
 $secondary: #C1F8CF !default;
-$black: #3a3d42 !default;
+$gray: #adb5bd !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: #F8F8FF !default;
+$dark: #072227 !default;

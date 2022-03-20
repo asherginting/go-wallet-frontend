@@ -1,0 +1,22 @@
+.inputsection {
+  border: none;
+  position: relative;
+  border-bottom: 2px solid #fff;
+  padding: 17px 40px;
+  color: rgb(0, 0, 0);
+  z-index: 5;
+  /* opacity: 0 !important; */
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.inputsection::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.eye {
+  position: absolute;
+  right: 40px;
+  font-size: 20px;
+  bottom: 19px;
+  z-index: 1;
+}
