@@ -1,0 +1,26 @@
+.contain {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.left {
+  background-image: url('../public/img/auth-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 50px 70px; */
+  padding-left: 5%;
+}
+.right {
+  /* padding: 50px 70px; */
+  padding-right: 5%;
+}
+.icon {
+  bottom: 17px;
+}
+@media all and (max-width: 992px) {
+  .left {
+    padding-left: 0;
+  }
+  .right {
+    padding-right: 0;
+  }
+}
