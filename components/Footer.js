@@ -1,10 +1,14 @@
 import style from './Footer.module.scss'
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className='container'>
         <div className={style.toptext}>
+          <Link href='/'>
           <h2 className='my-5'>Zwallet</h2>
+          </Link>
           <p className="">Simplify financial needs and saving much time in banking needs with one single app.</p>
         </div>
         <div className="my-5 border border-bottom" />

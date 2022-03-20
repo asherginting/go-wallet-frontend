@@ -15,7 +15,9 @@ const AuthPage = ({form, info}) => {
       <Row>
         <Col sm={12} lg={6} className={styles.left}>
           <div className="p-5">
+            <Link href='/'>
             <h1 className='fs-1 text-light'>Zwallet</h1>
+            </Link>
             <Image src='/img/auth-phone.png' alt='phone' layout="responsive" width={300} height={300}/>
             <h2 className="my-5 text-light">App that Convering Banking Needs.</h2>
             <p className='text-light'>

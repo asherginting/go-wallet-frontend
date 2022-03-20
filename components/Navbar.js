@@ -32,10 +32,14 @@ const Navigation = () => {
       <div className="collapse navbar-collapse justify-content-end" id="navbarRight">
         <ul className={`${style.btncontainer} navbar-nav mb-2 mb-lg-0`}>
           <li className="nav-item me-0 my-4 my-md-0 me-md-4">
+            <Link href='/auth/login'>
             <Button block variant="outline-secondary">Login</Button>
+            </Link>
           </li>
           <li className="nav-item">
+          <Link href='/auth/register'>
             <Button block variant="secondary" cls='text-dark'>Signup</Button>
+          </Link>  
           </li>
         </ul>
       </div>
