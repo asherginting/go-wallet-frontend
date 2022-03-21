@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from './ReceiverList.module.css';
+import styles from './styles/ReceiverList.module.css';
 import { useRouter } from 'next/router';
 
 const ReceiverList = ({event, image, name, phone}) => {
@@ -7,7 +7,7 @@ const ReceiverList = ({event, image, name, phone}) => {
 
   return (
     <div style={{cursor: 'pointer'}} onClick={event} className={`${styles.card} d-flex flex-row align-items-center justify-content-between`}>         
-      <div className={`d-flex flex-row my-3 p-3 text-decoration-none text-white`}>
+      <div className={`d-flex flex-row my-3 p-3 text-decoration-none text-dark`}>
         <style jsx>
           {`.photo {
               background-image: url(${image});

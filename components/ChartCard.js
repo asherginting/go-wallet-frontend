@@ -55,7 +55,7 @@ const ChartCard = ({labels, dataChart, income = 0, expense = 0}) => {
       {
         label: 'Dataset 1',
         data: dataChart,
-        backgroundColor: '#C1F8CF',
+        backgroundColor: '#c1dedf',
         color: '#fff',  
         borderRadius: 1000,
         barThickness: 14,
@@ -67,7 +67,7 @@ const ChartCard = ({labels, dataChart, income = 0, expense = 0}) => {
     <div className='container'>
       <Row className='d-flex flex-row justify-content-end'>
         <Row className='d-flex justify-content-end'>
-          <Col xs={12} md={6} className='text-light'>
+          <Col xs={12} md={6}>
             <BsArrowDown className='text-success fw-bold fs-4' />
             <div>Income</div>
             <div className='fw-bold'>Rp. {Number(income).toLocaleString('id-ID')}</div>
@@ -75,8 +75,8 @@ const ChartCard = ({labels, dataChart, income = 0, expense = 0}) => {
           <Col xs={12} md={6} className='d-flex mt-3 mt-md-0 flex-column justify-content-end align-items-end'>
             <div>
               <BsArrowUp className='text-danger fw-bold fs-4' />
-              <div className='text-light'>Expense</div>
-              <div className='text-light fw-bold'>Rp. {Number(expense).toLocaleString('id-ID')}</div>
+              <div>Expense</div>
+              <div className='fw-bold'>Rp. {Number(expense).toLocaleString('id-ID')}</div>
             </div>
           </Col>
         </Row>

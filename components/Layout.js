@@ -1,12 +1,12 @@
 import Navigation from "./Navbar";
 import Footer from "./Footer";
 
-const Layout = ({children, ...set}) => {
+const Layout = ({withoutNav, children, fullFooter, ...set}) => {
   return (
     <div>
-      <Navigation/>
+      {!withoutNav ? <Navigation/> : <></>}
       {children}
-      <Footer/>
+      <Footer full={fullFooter}/>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 .inputsection {
   border: none;
+  outline: none;
   position: relative;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid rgb(0, 0, 0);
   padding: 17px 40px;
   color: rgb(0, 0, 0);
   z-index: 5;

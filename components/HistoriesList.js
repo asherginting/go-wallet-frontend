@@ -1,4 +1,4 @@
-import styles from '../styles/Dashboard.module.css';
+import styles from '../styles/Home.module.css';
 
 const HistoriesList = ({image, name, status, total}) => {
   return (
@@ -11,7 +11,7 @@ const HistoriesList = ({image, name, status, total}) => {
       </style>
       <div className='d-flex flex-row my-3'>
         <div className={`${styles.phototransaction} photo-trans`}></div>
-        <div className='ps-2 text-light'>
+        <div className='ps-2'>
           <div>{name}</div>
           <div>{status}</div>
         </div>

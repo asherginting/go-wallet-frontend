@@ -1,0 +1,31 @@
+.contain {
+  padding-top: 170px;
+  padding-bottom: 90px;
+}
+.pict {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.par {
+  width: 50%;
+}
+.manage {
+  right: 15px;
+  bottom: 45px;
+}
+.trash {
+  right: 15px;
+  bottom: 35px;
+}
+.icon {
+  bottom: 17px;
+}
+.input {
+  width: 70%;
+}
+.card {
+  min-height: 500px;
+}
