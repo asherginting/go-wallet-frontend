@@ -1,5 +1,5 @@
 import axios from 'axios'
-const BACKEND_URL = process.env.BACKEND_URL
+const apiUrl = process.env.API_URL
 
 const http = (token) => {
   const headers = {}
@@ -7,7 +7,7 @@ const http = (token) => {
     headers['Authorization'] = `Bearer ${token}`
   }
   return axios.create({
-    baseURL: BACKEND_URL,
+    baseURL: apiUrl,
     headers
   })
 }

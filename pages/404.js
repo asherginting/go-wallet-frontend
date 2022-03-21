@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Button from '../components/Button'
+import Button from '../components/ButtonComp'
 import styles from '../styles/LandingPage.module.css'
 import Link from 'next/link'
 
