@@ -12,7 +12,7 @@ import { BsPencil } from 'react-icons/bs';
 import ButtonComp from "../../components/ButtonComp";
 import { inputTransfer } from "../../redux/actions/transfer";
 import { useDispatch } from "react-redux";
-import getDate from "../../helper/getDate";
+import getDate from "../../helpers/getDate";
 
 const Transfer = () => {
   const route = useRouter();

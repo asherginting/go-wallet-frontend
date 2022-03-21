@@ -13,7 +13,7 @@ import { getHistory } from '../redux/actions/histories';
 import histories from '../data/histories';
 import { useRouter } from 'next/router';
 import { getBalance } from '../redux/actions/profile';
-import nominalFormat from '../helper/nominalFormat';
+import nominalFormat from '../helpers/nominalFormat';
 
 const Home = () => {
   const dispatch = useDispatch();
