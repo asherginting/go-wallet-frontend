@@ -68,7 +68,7 @@ const Navigation = () => {
                   <div className="photo-profile"></div>
                 </div>
               </li>
-              <li className='mx-3'>
+              <li className='mx-3 text-light'>
                 <h4 className="fw-bold">{fullName}</h4>
                 <div>{phoneList.phone}</div>
               </li>

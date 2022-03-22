@@ -6,10 +6,13 @@ import { MdOutlineLogout } from 'react-icons/md';
 import { useRouter } from "next/router";
 import { useEffect, useState } from 'react';
 import styles from '../styles/Transfer.module.css';
+import ButtonComp from "../components/ButtonComp";
+import { useDispatch } from 'react-redux';
 
 const SideBar = () => {
   const route = useRouter();
   const [routes, setRoutes] = useState('/dashboard');
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setRoutes(route.pathname)
@@ -27,6 +30,14 @@ const SideBar = () => {
     
   }
 
+  const handleLogout = (e) => {
+    e.preventDefault();
+    dispatch({
+      type: 'LOGOUT'
+    })
+    route.push('/');
+  }
+
   return (
     <div className='card p-4 bg-white position-relative h-100'>
         {dataSide.map((data, index) => {
@@ -42,12 +53,12 @@ const SideBar = () => {
             </a>}
           </Link>
         })}
-        <Link href='/' className=' d-flex flex-row align-items-center my-3'>
+        <ButtonComp event={handleLogout} className=' d-flex flex-row align-items-center my-3'>
           <a className='text-decoration-none text-white my-4 ps-3 position-absolute bottom-0'>
             <MdOutlineLogout className='fs-5 me-2 text-dark'/>
             <span className='text-dark'>Logout</span>
           </a>
-        </Link>
+        </ButtonComp>  
         <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content bg-primary text-dark">
