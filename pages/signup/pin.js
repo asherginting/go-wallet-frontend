@@ -22,13 +22,15 @@ const Pin = () => {
   const handleConfirm = (e) => {
     e.preventDefault();
     const { fullName, email, password } = registerUser.dataRegist;
-    console.log(fullName, email, password, Number(test))
-    if (Number(test) === 123456) {
-      setStatus(true);
-      dispatch(signup(fullName, email, password, Number(test)));
-    } else {
-      alert('Wrong code input')
-    }
+    setStatus(true);
+    dispatch(signup(fullName, email, password, Number(test)));
+    // console.log(fullName, email, password, Number(test))
+    // if (Number(test) === 123456) {
+    //   setStatus(true);
+    //   dispatch(signup(fullName, email, password, Number(test)));
+    // } else {
+    //   alert('Wrong code input')
+    // }
   }
   return (
     <div>
