@@ -25,13 +25,13 @@ export default function Home() {
     {
       icon: AiOutlineDownload,
       head: 'Easy Download',
-      par: 'Zwallet is 100% totally free to use it’s now available on Google Play Store and App Store.'
+      par: 'Go - Wallet is 100% totally free to use it’s now available on Google Play Store and App Store.'
     }
   ]
   const dataFeatures = [
-    {head: 'Small Fee', par: 'We only charge 5% of every success transaction done in Zwallet app.'},
+    {head: 'Small Fee', par: 'We only charge 5% of every success transaction done in Go - Wallet app.'},
     {head: 'Data Secured', par: 'All your data is secured properly in our system and it’s encrypted.'},
-    {head: 'User Friendly', par: 'Zwallet come up with modern and sleek design and not complicated.'}
+    {head: 'User Friendly', par: 'Go - Wallet come up with modern and sleek design and not complicated.'}
   ]
   const dataReview = [
     {
@@ -42,12 +42,12 @@ export default function Home() {
     {
       img: '/img/review-3.jpg',
       name: 'Jessica Mera',
-      par: '“I use Zwallet to manage all financial needs. It’s super easy to use and it’s 100% free app”'
+      par: '“I use Go - Wallet to manage all financial needs. It’s super easy to use and it’s 100% free app”'
     },
     {
       img: '/img/review-2.jpg',
       name: 'Robert Chandler',
-      par: '“Since I’m using this app, I’m not going to move to another similar app. Thank you Zwallet!”'
+      par: '“Since I’m using this app, I’m not going to move to another similar app. Thank you Go - Wallet!”'
     }
   ]
 
@@ -128,7 +128,7 @@ export default function Home() {
                   <Image className='p-0' width={420} height={820} layout='responsive' quality={100} src='/img/phone.png' alt='phone' />
                 </Col>
                 <Col sm={12} lg={7} className='mt-5'>
-                  <h1 className={`${styles.headText} fs-1 mt-4`}>All The <span className='text-primary'>Great</span><br/> Zwallet Features.</h1>
+                  <h1 className={`${styles.headText} fs-1 mt-4`}>All The <span className='text-primary'>Great</span><br/> Go - Wallet Features.</h1>
                   {dataFeatures.map((data, index) => (
                     <div key={index} className='card bg-white p-5 mt-5'>
                       <h4 className='fw-bold mb-3'><span className='text-primary'>{index + 1}.</span> {data.head}</h4>
