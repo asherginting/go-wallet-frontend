@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { MdNotificationsNone } from 'react-icons/md'
 import { useSelector } from "react-redux";
+import Image from "next/image";
 
 const Navigation = () => {
   const route = useRouter();
@@ -26,8 +27,6 @@ const Navigation = () => {
 
   const handleBtn = (e, route) => {
     e.preventDefault();
-    // console.log('test')
-    // route.push(route)
   }
 
   return (
@@ -35,7 +34,9 @@ const Navigation = () => {
     <nav className="navbar navbar-expand-md navbar-light bg-primary fixed-top py-4">
       <div className="container">
         <Link href='/'>
-          <a className="navbar-brand fw-bold text-white fs-2">Zwallet</a>
+          <a>
+        <Image src='/img/logo.png' alt='logo' layout="fixed" width={100} height={90}/>
+        </a>
         </Link>
         <button onClick={show}
           className="navbar-toggler bg-secondary"
@@ -91,46 +92,5 @@ const Navigation = () => {
     </>
   )
 }
-
-
-// const Navigation = () => {
-//   const show = (e) => {
-//     e.preventDefault();
-//     const element = document.getElementById('navbarRight')
-//     if (element.style.display === 'block') {
-//       element.style.display = 'none';
-//     } else {
-//       element.style.display = 'block'
-//     }
-//   }
-//   return (
-//     <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-//       <div className="container">
-//         <Link href='/'>
-//           <a className="navbar-brand fw-bold text-white fs-2">Zwallet</a>
-//         </Link>
-//         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-//           <span className="navbar-toggler-icon"></span>
-//         </button>
-//         <div className="collapse navbar-collapse  justify-content-end" id="navbarRight">
-//           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-//             <li className="nav-item me-5">
-//               <Button block variant="outline-primary">Login</Button>
-//               {/* <Link href='/login'>
-//                 <a className="nav-link fw-bold text-white btn btn-outline-primary py-3 px-5">Login</a>
-//               </Link> */}
-//             </li>
-//             <li className="nav-item ">
-//               <Button block variant="secondary" cls='text-dark'>Signup</Button>
-//               {/* <Link href='/signup'>
-//                 <a className="nav-link fw-bold btn btn-secondary text-dark py-3 px-5">Signup</a>
-//               </Link> */}
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </nav>
-//   )
-// }
 
 export default Navigation;
