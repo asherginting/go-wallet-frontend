@@ -9,7 +9,9 @@ const Footer = ({full}) => {
         {full 
         ? <><div className={style.toptext}>
           <Link href='/'>
+            <a>
           <Image src='/img/logo.png' alt='logo' layout="fixed" width={110} height={100}/>
+          </a>
           </Link>
           <p className="">Go - Wallet is simplify financial needs and saving much time in banking needs with one single app.</p>
         </div>

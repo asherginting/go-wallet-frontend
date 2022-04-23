@@ -16,7 +16,9 @@ const AuthPage = ({form, info}) => {
         <Col sm={12} lg={6} className={styles.left}>
           <div className="p-5">
             <Link href='/'>
+            <a>
             <Image src='/img/logo.png' alt='logo' layout="fixed" width={100} height={90}/>
+            </a>
             </Link>
             <Image src='/img/auth-phone.png' alt='phone' layout="responsive" width={300} height={300}/>
             <h2 className="my-5 text-light">App that Convering Banking Needs.</h2>
