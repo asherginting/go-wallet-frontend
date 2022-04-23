@@ -16,14 +16,14 @@ const AuthPage = ({form, info}) => {
         <Col sm={12} lg={6} className={styles.left}>
           <div className="p-5">
             <Link href='/'>
-            <h1 className='fs- text-light'>Zwallet</h1>
+            <Image src='/img/logo.png' alt='logo' layout="fixed" width={100} height={90}/>
             </Link>
             <Image src='/img/auth-phone.png' alt='phone' layout="responsive" width={300} height={300}/>
             <h2 className="my-5 text-light">App that Convering Banking Needs.</h2>
             <p className="text-light">
-              Zwallet is an application that focussing in banking needs for all users
+              Go - Wallet is an application that focussing in banking needs for all users
               in the world. Always updated and always following world trends.
-              5000+ users registered in Zwallet everyday with worldwide
+              5000+ users registered in Go - Wallet everyday with worldwide
               users coverage.
             </p>
           </div>
@@ -33,7 +33,7 @@ const AuthPage = ({form, info}) => {
           {info 
             ? info
             : <><h2>Start Accessing Banking Needs <br />With All Devices and All Platforms<br/> With 30.000+ Users</h2>
-              <p className="my-5">Transfering money is eassier than ever, you can access Zwallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!</p></>
+              <p className="my-5">Transfering money is eassier than ever, you can access Go - Wallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!</p></>
           }
           {form}
          </div>
