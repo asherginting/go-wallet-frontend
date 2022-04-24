@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import AuthPage from "../../components/AuthPage";
+import AuthPage from "../../../components/AuthPage";
 import PinInput from "react-pin-input";
-import ButtonComp from "../../components/ButtonComp";
+import ButtonComp from "../../../components/ButtonComp";
 import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
 import { AiOutlineCheck } from 'react-icons/ai'
 import { useDispatch, useSelector } from "react-redux";
-import { signup } from "../../redux/actions/auth";
+import { signup } from "../../../redux/actions/auth";
 
 const Pin = () => {
   const [test, setTest] = useState('');

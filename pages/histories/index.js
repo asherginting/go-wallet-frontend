@@ -1,9 +1,9 @@
-import Layout from "../components/Layout";
-import HistoriesList from '../components/HistoriesList';
-import SideBar from '../components/SideBar';
+import Layout from "../../components/Layout";
+import HistoriesList from '../../components/HistoriesList';
+import SideBar from '../../components/SideBar';
 import { Row, Col } from 'react-bootstrap';
-import styles from '../styles/Histories.module.css';
-import histories from '../data/histories';
+import styles from '../../styles/Histories.module.css';
+import histories from '../../data/histories';
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 

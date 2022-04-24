@@ -47,7 +47,7 @@ const ForgotPassword = () => {
       if (newPwd === confirmPwd) {
         alert('ok')
         dispatch(changePassword(otp, newPwd, confirmPwd));
-        route.push('/login')
+        route.push('/auth/login')
       } else {
         alert('The password confirmation doesnt match')
       }

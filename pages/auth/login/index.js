@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import AuthPage from "../components/AuthPage";
+import AuthPage from "../../../components/AuthPage";
 import { AiOutlineMail } from 'react-icons/ai'
-import InputAuth from "../components/InputAuth";
+import InputAuth from "../../../components/InputAuth";
 import { VscLock } from 'react-icons/vsc';
-import styles from '../styles/Auth.module.css';
+import styles from '../../../styles/Auth.module.css';
 import Link from 'next/link';
-import ButtonComp from "../components/ButtonComp";
-import { login } from "../redux/actions/auth";
+import ButtonComp from "../../../components/ButtonComp";
+import { login } from "../../../redux/actions/auth";
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
@@ -59,7 +59,7 @@ const Login = () => {
       </div>
       <div className="d-flex justify-content-end">
           Dont have an account? Lets
-          <Link href='/signup'>
+          <Link href='/auth/signup'>
             <a className="fw-bold text-decoration-none ps-1"> Signup</a>
           </Link>
         </div>
