@@ -55,7 +55,7 @@ const Pin = () => {
       }
       form={status
         ?  <div className="mt-5">
-            <ButtonComp event={e => route.push('/login')} block='true'>Login Now</ButtonComp>
+            <ButtonComp event={e => route.push('/auth/login')} block='true'>Login Now</ButtonComp>
           </div>
         : <form>
           <PinInput 
