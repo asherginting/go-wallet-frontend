@@ -79,10 +79,10 @@ const Navigation = () => {
               </>
             : <>
               <li className="nav-item me-0 my-4 my-md-0 me-md-4">
-                <ButtonComp block='true' variant="outline-secondary" event={e => route.push('/login')}>Login</ButtonComp>
+                <ButtonComp block='true' variant="outline-secondary" event={e => route.push('/auth/login')}>Login</ButtonComp>
               </li>
               <li className="nav-item">
-                <ButtonComp block='true' variant="secondary" event={e => route.push('/signup')} cls='text-dark'>Signup</ButtonComp>
+                <ButtonComp block='true' variant="secondary" event={e => route.push('/auth/signup')} cls='text-dark'>Signup</ButtonComp>
               </li>
               </>}
           </ul>
