@@ -12,7 +12,7 @@ const Navigation = () => {
   const route = useRouter();
   const { login, phoneList } = useSelector(state => state);
 
-  const { picture, fullName } = login.results;
+  const { picture, fullName, email } = login.results;
   const defaultPict = '/img/profile.png';
 
   const show = (e) => {
@@ -69,10 +69,15 @@ const Navigation = () => {
                   <div className="photo-profile"></div>
                 </div>
               </li>
+              <Link href="/dashboard">
+                <a>
               <li className='mx-3 text-light'>
                 <h4 className="fw-bold">{fullName}</h4>
+                <p className="fw-bold">{email}</p>
                 <div>{phoneList.phone}</div>
               </li>
+              </a>
+              </Link>
               <li onClick={handleBtn} className="my-auto">
                 <MdNotificationsNone className='text-white fs-2 fw-bold' />
               </li>
