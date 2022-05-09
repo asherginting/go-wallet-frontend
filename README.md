@@ -51,4 +51,8 @@ Backend : https://fw5-zwallet.herokuapp.com
 
 ## ✍️ Authors
 
+<<<<<<< HEAD
 - [@asherginting](https://github.com/asherginting)
+=======
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details...
+>>>>>>> fce7cb7aa8f95916f2df68deafda3096f235ee51
