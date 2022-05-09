@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://aimeos.org/">
+    <img src="https://user-images.githubusercontent.com/39787908/167324588-e57de6c7-8712-46c8-8758-a08679907939.png" alt="Aimeos logo" title="Aimeos" align="right" />
+</a>
 
-## Getting Started
+# Go - Wallet Frontend
 
-First, run the development server:
+Go-Wallet is a simplify financial needs and saving much time in banking needs with one single app.
 
-```bash
-npm run dev
-# or
-yarn dev
+
+
+[![Go-Wallet](https://user-images.githubusercontent.com/39787908/167324639-b2dcd179-aa1d-4982-acb7-aeb8eb25ed46.png)](#)
+[![Go-Wallet](https://user-images.githubusercontent.com/39787908/167324781-9ff71d3c-9632-4f52-95d7-8b58b930946a.png)](#)
+[![Go-Wallet](https://user-images.githubusercontent.com/39787908/167324824-6495c188-2e07-41df-9558-4abc177013d4.png)](#)
+[![Go-Wallet](https://user-images.githubusercontent.com/39787908/167324858-b94e82c4-0c2e-451f-859c-486a61c1cf3a.png)](#)
+
+
+## Installation
+
+1. Clone this repo
+```
+git clone https://github.com/asherginting/go-wallet-frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install module
+```
+npm install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Make your file .env
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[![Env](https://user-images.githubusercontent.com/39787908/167325059-3595021e-12e2-4bf3-b6eb-b90795bb47d1.png)](#)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+4. Configure your file .env in the ``next.config.js``
 
-## Learn More
+[![Env](https://user-images.githubusercontent.com/39787908/167325121-494db9f9-65b9-46c7-b3d3-e652bdb53f83.png)](#)
 
-To learn more about Next.js, take a look at the following resources:
+5. ```npm run dev``` to run the project
+6. **Done**, Project default run on http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 💻 Frontend & Backend
 
-## Deploy on Vercel
+Frontend : https://github.com/asherginting/go-wallet-frontend
+<br>
+Backend : https://fw5-zwallet.herokuapp.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💻 Live Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Go - Wallet - Heroku](https://go-wallet-frontend.herokuapp.com) <br>
+
+## ✍️ Authors
+
+- [@asherginting](https://github.com/asherginting)
