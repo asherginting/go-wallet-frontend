@@ -4,7 +4,7 @@
 
 # Go - Wallet Frontend
 
-Go-Wallet is a simplify financial needs and saving much time in banking needs with one single app
+Go-Wallet is a simplify financial needs and saving much time in banking needs with one single app.
 
 
 
